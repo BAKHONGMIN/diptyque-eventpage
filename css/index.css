@@ -1,13 +1,30 @@
-h1, h2, h3, h4, h5, h6, a, span {
-  font-family: 'Libre Bodoni', serif;
+* {
+  padding: 0;
+  margin: 0 auto;
 }
 
-h5 {
-  font-size: 13px;
+.text {
+  vertical-align: middle;
 }
 
 span {
   font-size: 12px;
+}
+
+p, .noto {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 0;
+}
+
+.libre {
+  font-family: 'Libre Bodoni', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding: 0;
 }
 
 header {
@@ -21,7 +38,7 @@ header {
 .banner {
   width: 100%;
   height: 80vmin;
-  background-color: #007683;
+  background-color: #007681;
   position: relative;
 }
 
@@ -38,5 +55,23 @@ header {
 }
 
 .product-img {
-  background: url("../img/modu.png");
+  width: 100%;
+  height: 100vh;
+  margin: 10vmin auto;
+  background-size: 90%;
+  background-image: url("../img/modu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-collection {
+  width: 90%;
+  padding: 10% 5%;
+  background: #007681;
+  margin: 15vmin auto;
+  position: relative;
+}
+
+.font-12 {
+  font-size: 12px;
 }
