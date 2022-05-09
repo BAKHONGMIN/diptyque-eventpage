@@ -11,7 +11,7 @@ span{
 p, .noto{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
     word-spacing: 2px;
     padding:0;
 }
@@ -64,7 +64,17 @@ header{
     margin: 15vmin auto;
     position: relative;
 }
-.font-12{
+.font-13{
+    font-size: 13px;
+}
+.description{
     font-size: 12px;
+    line-height: 17px;
 }
 
+.lapid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
